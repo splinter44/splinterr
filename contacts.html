@@ -12,18 +12,28 @@
       <p><strong>Електронна пошта: </strong>
         splinter4234@gmail.com</p>
         <hr>
-        <form class="" action="6216326@stud.nau.edu.ua" method="post" enctype="text/plain">
-          <label for="">Ваше Ім'я:</label>
-          <input type="text" name="yourName" value="">
-          <br>
-          <label for="">Ваш Email:</label>
-          <input type="email" name="yourName" value="">
-          <br>
-          <label for="">Ваше повідомлення:</label>
-        <br>
-        <textarea name="yourMessage" rows="10" cols="30"></textarea>
-        <br>
-          <input type="submit" name="">
-        </form>
+        <form class="SendMail" method="post">
+	<div class="row">
+	<div class="col-sm-6>
+	<div class="form-group">
+	<input name="name" type="text" class="form-control" id="name" placeholder="Name*"> 
+	</div>
+	</div>
+	<div class="col-sm-6">
+	<div class="form-group">
+	<input name="email" type="email" class="form-control" id="mail" placeholder="Email*"> 
+	</div>
+	</div>
+	<div class="col-sm-12">
+	<div class="form-group">
+	<textarea name="message" id="message" class="form-control" placeholder="Message" rows="5"></textarea>
+	</div>
+	</div>
+	<div class="col-sm-12">
+	<a href="#" class="btn btn-secondary">SEND</a>
+	</div>
+	</div>
+	</form>
+        <script src="/vg/www/templates/modules/mail/js/mail.js"></script>
   </body>
 </html>
