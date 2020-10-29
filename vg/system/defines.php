@@ -14,9 +14,3 @@ define('_SMTP_PASSWORD_', '626384315253F'); // пароль от почты с �
 define('_SMTP_SECURE_', 'ssl'); // tls
 define('_SMTP_PORT_', 465);
 
-/*
- * Настрйоки ReCaptha
- */
-define('_RECAPTCHA_', false); // Если включить CAPTCHA то true, если отключить то false
-define('_PRIVATE_KEY_', ''); //секретный ключ
-define('_RESPONCE_NAME_', 'g-recaptcha-response');
