@@ -1,0 +1,9 @@
+body{
+  background-color: lavender;
+}
+hr {
+background-color: white;
+border-style: none;
+height: 10px;
+width: 30%;
+}
