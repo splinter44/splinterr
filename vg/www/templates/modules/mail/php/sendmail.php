@@ -22,7 +22,10 @@ if(empty($data['email'])){
     echo json_encode(['error' => 1, 'data' => 'Введите email']);
     exit();
 }
-
+if(empty($data['name'])){
+    echo json_encode(['error' => 1, 'data' => 'Введите имя']);
+    exit();
+  }  
 //Сохраним файл
 $attachments=[];
 $uploaddir =  __DIR__.'/../../../../../temp/';
