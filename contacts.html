@@ -3,37 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Margaryta's Contacts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style media="screen">
+    body{
+      background-color: lavender;
+    }
+    <style>
+        .dotted {border: 1px dotted #ff0000; border-style: none none dotted; color: #fff; background-color: #fff; }
+    </style>
+
+    </style>
   </head>
   <body>
-   <hr>
+   <hr class="hr-dashed-gradient">
    <h1>Контактна інформація</h1>
    <p><strong>Поштова адреса:</strong> Україна, м.Київ, вул.Ніжинська 29Д</p>
     <p><strong>Тел: </strong>+38 (097) 651-17-36</p>
       <p><strong>Електронна пошта: </strong>
         splinter4234@gmail.com</p>
-        <hr>
-        <form class="SendMail" method="post">
-	<div class="row">
-	<div class="col-sm-6>
-	<div class="form-group">
-	<input name="name" type="text" class="form-control" id="name" placeholder="Name*"> 
-	</div>
-	</div>
-	<div class="col-sm-6">
-	<div class="form-group">
-	<input name="email" type="email" class="form-control" id="mail" placeholder="Email*"> 
-	</div>
-	</div>
-	<div class="col-sm-12">
-	<div class="form-group">
-	<textarea name="message" id="message" class="form-control" placeholder="Message" rows="5"></textarea>
-	</div>
-	</div>
-	<div class="col-sm-12">
-	<button class="btn btn-secondary" type="submit">Отправить сообщение</button>
-	</div>
-	</div>
-	</form>
+        <hr class='dotted' />
+        <form action="mailto:splinter4234@gmail.com" method="post" style="margin-left: 40px;">
+      <label for="" style="margin-right: 8px;">Your Name:</label>
+      <input type="text" name="Your Name" value="" style="margin-bottom: 5px;"><br>
+      <label for=""style="margin-right: 10px;">Your Email:</label>
+      <input type="email" name="Your Email" value="" style="margin-bottom: 5px;"><br>
+      <label for="" style="margin-bottom: 5px;">Your Masage:</label><br>
+      <textarea name="" id="" cols="30" rows="10"></textarea><br>
+      <input type="submit" name="Your Masage" id="" value="Send the comment">
+    </form>
         <script src="/vg/www/templates/modules/mail/js/mail.js"></script>
   </body>
 </html>
+
