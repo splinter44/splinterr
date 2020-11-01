@@ -62,3 +62,11 @@ h3 {
     color: #fff;
     background-color: #fff;
   }
+
+  div.outer p {
+  color: orange;
+}
+div:not(.outer) p {
+  color: lime;
+}
+
